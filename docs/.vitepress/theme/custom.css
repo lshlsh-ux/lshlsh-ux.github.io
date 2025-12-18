@@ -1,0 +1,21 @@
+body {
+  background-color: #a1cbe8; /* 浅灰色，可替换为任意色值/图片 */
+  /* 若用背景图：background: url('背景图路径') no-repeat center/cover; */
+}
+/* 强制修改全局主色调 */
+:root {
+  --vp-c-brand: #f29937 !important;
+  --vp-c-brand-light: #be8c52 !important;
+}
+
+/* 强制修改导航栏文字 */
+.vp-nav {
+  font-size: 18px !important;
+  color: #f29937 !important;
+}
+
+/* 强制修改MyCard组件样式 */
+.my-card {
+  background: #a7afdb !important;
+  border: 1px solid #f29937 !important;
+}
